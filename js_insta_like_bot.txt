@@ -1,6 +1,13 @@
-https://youtu.be/iWfz2RnTTaU
+                 *****************instagram likes bot***********************
 
-// code sta radi u 2020 
+
+// code that works in May 2020 
+
+		1. Open instagram app on your desktop
+		2. Go to any hashtag you want, for example: #example
+		3. Open the first image
+		3. Just copy the code between the dashes in the console log
+		4. Every 61 seconds one img will be liked, because of instagram spam ban (allowed only 60 likes per hour)
 
 -----------------------------------------------------------------------------
 
@@ -15,8 +22,8 @@ setInterval(() => {
     }
 	arrow.click();
 	console.log(`You've liked ${likesGiven} post(s)!`);
-}, 2000);
+}, 61000);
 
 -----------------------------------------------------------------------------
 
-//povecat interval zbog spam bana npr. umisto 2000 => 61000!!
+//increased interval because of spam ban => 61000!!
