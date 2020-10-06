@@ -13,7 +13,7 @@
 
 let likesGiven = 0;
 setInterval(() => {
-	let   heart = document.querySelector('button.wpO6b'),
+	let   heart = document.querySelectorAll('button.wpO6b')[1],
         arrow = document.querySelector('.coreSpriteRightPaginationArrow');
 	if (heart) {
 		
